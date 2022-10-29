@@ -63,4 +63,153 @@ Provide a way to view tasks in the form of a schedule (e.g., view the schedule f
 
 <div id="B-DetectAnomalies">
 Deal with schedule anomalies (e.g., detect if a task being added clashes with another task in the list).
-</div>
+</div><hr>
+
+- [ ] Detect Duplicates
+
+<div id="C-DetectDuplicates">
+Add the ability to recognize and deal with duplicate items. (e.g., the same task added multiple times).
+</div><hr>
+
+- [ ] Flexible Data Source
+
+<div id="C-FlexibleDataSource">
+Provide more flexibility with the data source (e.g., the ability for the user to specify which file to use as the data source).
+</div><hr>
+
+- [ ] Sort
+
+<div id="C-Sort">
+The ability to sort items (e.g., sort deadlines chronologically).
+</div><hr>
+
+- [ ] Natural Dates
+
+<div id="C-NaturalDates">
+Support more natural date formats (e.g., `Mon` in a user command can be interpreted as the date of the next Monday in the calendar).
+</div><hr>
+
+- [ ] Better Search
+
+<div id="C-BetterSearch">
+All more flexibility in search (e.g., find items even if the keyword matches the item only partially).
+</div><hr>
+
+- [ ] Update
+
+<div id="C-Update">
+Support a way to easily edit details of items (e.g., change the end time of an event without changing anything else).
+
+Minimal: the ability to update an existing item without having to delete it first
+
+Other ideas:
+* the ability to clone items (to easily create new items based on existing items)
+</div><hr>
+
+- [ ] Tagging
+
+<div id="C-Tagging">
+Provide a way to tag items (e.g., tag a task as `#fun`).
+</div><hr>
+
+- [ ] Priority
+
+<div id="C-Priority">
+Provide a way to attach priorities to items (e.g., mark an item as a `high` priority (or priority level `1`)).
+</div><hr>
+
+- [ ] Archive
+
+<div id="C-Archive">
+Provide a way to archive items so that the user can remove items from the app but still keep a record of them somewhere (e.g., archive all tasks in the list into a file so that the user can start over with a clean slate).
+</div><hr>
+
+- [ ] MassOps
+
+<div id="C-MassOps">
+Provide a way to perform tasks on multiple items (e.g., delete some specific items in one go).
+</div><hr>
+
+- [ ] Statistics
+
+<div id="C-Statistics">
+Provide a way to leverage statistics about the items managed by the App (e.g., show the number of tasks that have been completed in the past week).
+</div><hr>
+
+- [ ] Undo/Redo
+
+<div id="C-UndoRedo">
+Provide a way to undo/redo a command.
+</div><hr>
+
+- [ ] Help
+
+<div id="C-Help">
+Provide in-App guidance to users.
+
+Minimal: add a command to access a help page.
+
+Other ideas:
+* Load the App with some sample data at the first run.
+
+</div><hr>
+
+- [ ] Friendlier Syntax
+
+<div id="C-FriendlierSyntax">
+Make the command syntax more flexible.
+
+Minimal: provide shorter aliases for keywords (e.g., `t` can be shorter alias for `todo`).
+
+Other ideas:
+* Allow users to define their own aliases
+* Remove the need for the parts of a command to be in a specific order
+</div><hr>
+
+- [ ] Contacts
+
+<div id="D-Contacts">
+Support managing info about contacts (e.g., details of friends)
+</div><hr>
+
+- [ ] Notes
+
+<div id="D-Notes">
+Support managing info about small snippets of textual information the user wants to record (e.g., one's own waist size, a name of a movie that the user wants to remember)
+</div><hr>
+
+- [ ] Expenses
+
+<div id="D-Expenses">
+Support managing info about expenses (e.g., the amounts spent on food, books, transport, etc.)
+</div><hr>
+
+- [ ] Loans
+
+<div id="D-Loans">
+Support keeping records of loans given/taken (e.g., money lent/owed to colleagues/friends)
+</div><hr>
+
+- [ ] Places
+
+<div id="D-Places">
+Support recording info about places (e.g., info about restaurants visited, for future reference)
+</div><hr>
+
+- [ ] Trivia
+
+<div id="D-Trivia">
+Provide the ability to learn/memorize things(e.g., learn vocabulary, answers to questions)
+</div><hr>
+
+- [ ] Clients
+
+<div id="D-Clients">
+Support managing info about clients (e.g., for an insurance agent to keep track of clients)
+</div><hr>
+
+- [ ] Merchandise
+
+<div id="D-Merchandise">
+Support managing info about merchandise (e.g., a property agent to keep track of properties, a collector of stamps keep track of items in the collection)
+</div><hr>
