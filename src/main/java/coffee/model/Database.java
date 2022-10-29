@@ -1,8 +1,8 @@
-package main.java.model;
+package main.java.coffee.model;
 
 import javafx.beans.Observable;
 import javafx.collections.ObservableList;
-import main.java.model.database.DatabaseObject;
+import main.java.coffee.model.database.DatabaseObject;
 
 public interface Database extends Observable {
 

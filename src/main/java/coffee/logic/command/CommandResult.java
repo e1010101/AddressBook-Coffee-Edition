@@ -1,4 +1,4 @@
-package main.java.logic.command;
+package main.java.coffee.logic.command;
 
 import static java.util.Objects.requireNonNull;
 

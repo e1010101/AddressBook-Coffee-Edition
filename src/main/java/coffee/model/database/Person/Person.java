@@ -1,9 +1,9 @@
-package main.java.model.database.Person;
+package main.java.coffee.model.database.Person;
 
-import static main.java.common.util.CollectionUtil.requireAllNonNull;
+import static main.java.coffee.common.util.CollectionUtil.requireAllNonNull;
 
 import java.util.Objects;
-import main.java.model.database.DatabaseObject;
+import main.java.coffee.model.database.DatabaseObject;
 
 /**
  * Represents a Person in the address book. Guarantees: details are present and not null, field

@@ -1,7 +1,7 @@
-package main.java.logic.command;
+package main.java.coffee.logic.command;
 
-import main.java.logic.command.exception.CommandException;
-import main.java.model.Database;
+import main.java.coffee.logic.command.exception.CommandException;
+import main.java.coffee.model.Database;
 
 /**
  * Represents a command with hidden internal logic and the ability to be executed.

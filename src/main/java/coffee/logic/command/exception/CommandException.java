@@ -1,6 +1,6 @@
-package main.java.logic.command.exception;
+package main.java.coffee.logic.command.exception;
 
-import main.java.logic.command.Command;
+import main.java.coffee.logic.command.Command;
 
 /**
  * Represents an error which occurs during execution of a {@link Command}.

@@ -1,4 +1,4 @@
-package main.java.common.util;
+package main.java.coffee.common.util;
 
 import static java.util.Objects.requireNonNull;
 

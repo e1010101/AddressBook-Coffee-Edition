@@ -1,7 +1,7 @@
-package main.java.model.database.Person;
+package main.java.coffee.model.database.Person;
 
 import static java.util.Objects.requireNonNull;
-import static main.java.common.util.ValidationUtil.checkArgument;
+import static main.java.coffee.common.util.ValidationUtil.checkArgument;
 
 /**
  * Represents a Person's name in the address book.
