@@ -1,14 +1,15 @@
-package main.java.model.Person;
+package main.java.model.database.Person;
 
 import static main.java.common.util.CollectionUtil.requireAllNonNull;
 
 import java.util.Objects;
+import main.java.model.database.DatabaseObject;
 
 /**
  * Represents a Person in the address book. Guarantees: details are present and not null, field
  * values are validated, immutable.
  */
-public class Person {
+public class Person extends DatabaseObject {
 
   // Identity fields
   private final Name name;

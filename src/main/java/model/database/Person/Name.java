@@ -1,4 +1,4 @@
-package main.java.model.Person;
+package main.java.model.database.Person;
 
 import static java.util.Objects.requireNonNull;
 import static main.java.common.util.ValidationUtil.checkArgument;
