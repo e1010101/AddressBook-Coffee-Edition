@@ -4,7 +4,6 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -43,6 +42,7 @@ public class DateUtil {
 
       SimpleDateFormat sdf = (SimpleDateFormat) DateFormat.getDateInstance();
       sdf.applyPattern(format);
+      sdf.setLenient(false);
 
       try {
         date = sdf.parse(test);
