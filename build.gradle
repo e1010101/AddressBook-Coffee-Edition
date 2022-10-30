@@ -47,6 +47,12 @@ dependencies {
     implementation group: 'org.openjfx', name: 'javafx-web', version: javaFxVersion, classifier: 'mac'
     implementation group: 'org.openjfx', name: 'javafx-web', version: javaFxVersion, classifier: 'linux'
 
+    // Jackson
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.13.4'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.4'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.13.4'
+    implementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.3.0-rc1'
+
     // Apache Commons
     implementation 'commons-validator:commons-validator:1.7'
 }
